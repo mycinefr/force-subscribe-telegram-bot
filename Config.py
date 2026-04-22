@@ -24,13 +24,13 @@ class Messages():
       HELP_MSG = [
         ".",
 
-        "**Force Subscribe**\n__Force group members to join a specific channel before sending messages in the group.\nI will mute members if they not joined your channel and tell them to join the channel and unmute themself by pressing a button.__",
+        "**Abonnement Forcé**\n__Forcez les membres du groupe à rejoindre une chaîne spécifique avant de pouvoir envoyer des messages dans le groupe.\nJe mettrai en sourdine les membres s'ils n'ont pas rejoint votre chaîne et je leur demanderai de s'abonner puis de se débloquer en appuyant sur un bouton.__",
         
-        "**Setup**\n__First of all add me in the group as admin with ban users permission and in the channel as admin.\nNote: Only creator of the group can setup me and i will leave the chat if i am not an admin in the chat.__",
+        "**Configuration**\n__Tout d'abord, ajoutez-moi dans le groupe en tant qu'admin avec la permission de bannir des utilisateurs, et dans la chaîne en tant qu'admin.\nNote : Seul le créateur du groupe peut me configurer. Je quitterai le groupe si je ne suis pas administrateur.__",
         
-        "**Commmands**\n__/ForceSubscribe - To get the current settings.\n/ForceSubscribe no/off/disable - To turn of ForceSubscribe.\n/ForceSubscribe {channel username} - To turn on and setup the channel.\n/ForceSubscribe clear - To unmute all members who muted by me.\n\nNote: /FSub is an alias of /ForceSubscribe__",
+        "**Commandes**\n__/ForceSubscribe - Pour voir les paramètres actuels.\n/ForceSubscribe no/off/disable - Pour désactiver l'abonnement forcé.\n/ForceSubscribe {nom d'utilisateur de la chaîne} - Pour activer et configurer la chaîne.\n/ForceSubscribe clear - Pour redonner la parole à tous les membres que j'ai bloqués.\n\nNote : /FSub est un raccourci de /ForceSubscribe__",
         
-        "**Developed by @viperadnan**"
+        "**Développé par @viperadnan**"
       ]
 
-      START_MSG = "**Hey [{}](tg://user?id={})**\n__I can force members to join a specific channel before writing messages in the group.\nLearn more at /help__"
+      START_MSG = "**Salut [{}](tg://user?id={})**\n__Je peux forcer les membres à rejoindre une chaîne spécifique avant de pouvoir écrire dans ce groupe.\nApprenez-en plus avec /help__"
